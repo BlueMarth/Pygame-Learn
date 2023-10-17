@@ -8,7 +8,8 @@ screen = pygame.display.set_mode((800,400))
 pygame.display.set_caption('insert title')
 clock = pygame.time.Clock()
 
-test_surface = pygame.Surface((100,200))
+test_surface = pygame.image.load('graphics/Sky.png')
+# test_surface = pygame.Surface((100,200))
 test_surface.fill('red')
 
 while True:
