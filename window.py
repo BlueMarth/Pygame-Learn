@@ -11,9 +11,7 @@ clock = pygame.time.Clock()
 test_surface = pygame.Surface((100,200))
 test_surface.fill('red')
 
-running = True
-
-while running:
+while True:
     # detect for any user input
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -24,4 +22,4 @@ while running:
 
     # update everything
     pygame.display.update()
-    clock.tick(60)
+    clock.tick(60) #should not run faster than 60 times per second
