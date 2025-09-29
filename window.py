@@ -28,4 +28,4 @@ while True:
 
     # update everything
     pygame.display.update()
-    clock.tick(60) #should not run faster than 60 times per second
+    clock.tick(60) #should not run faster than 60 times per secon
